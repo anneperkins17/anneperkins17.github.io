@@ -1,0 +1,58 @@
+.body-class {
+    background-color: rgb(218, 210, 216);
+}
+
+.header-class {
+    background-color: rgb(20, 54, 66);
+    color: rgb(114, 114, 154);
+}
+
+.nav-class {
+    background-color: rgb(138, 131, 136);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link-class {
+    color: white;
+}
+
+
+
+.title-class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+
+.section-title-class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+
+.text-class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 54, 66);
+}
+
+.image-class {
+    border: 15px solid rgb(112, 38, 50);
+}
+
+.faq-question-class {
+    color: rgb(122, 111, 155);
+}
+
+.form-class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 38, 50);
+}
+
+.button-class {
+    color: rgb(76, 65, 108);
+}
+
+.footer-class {
+    background-color: rgb(122, 111, 155);
+    .text-class {
+        color: antiquewhite;
+    }
+}
