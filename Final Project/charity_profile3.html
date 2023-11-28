@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HelpHub Charity Profile: United Way</title>
+        <link rel = "stylesheet" href = "stylesheet.css">
+    </head>
+
+    <body>
+        <p><span class = "logo">HelpHub</span></p>
+        <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href = "index.html" class="hover">Homepage</a></li>
+                <li><a href = "charities.html" class="hover">Charities List</a></li>
+                <li class="smallFont2">Charity Profile Pages</li>           
+                <li><a href ="charity_profile1.html" class="hover">ASPCA</a></li>
+                <li><a href ="charity_profile2.html" class="hover">Habitat for Humanity</a></li>
+                <li><a href ="charity_profile3.html" id="active">United Way</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+        <h1 class="largeFont">United Way</h1>
+        <div id="hidden">     
+            <div id="form">
+            <h1>Volunteer Now</h1>
+            <p>Fill out the contact information form below to get started on your jounrey to volunteering.</p>
+            <form class="smallFont2">
+                <label for ="charity">Name of Charity: United Way</label>
+                <br>
+                <br>
+                <label for="fname" >First name:</label>
+                <input type = "text" id = "fname" name = "fname">
+                <br>
+                <br>
+                <label for="lname">Last name:</label>
+                <input type = "text" id ="lname" name = "lname">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type = "email" id = "email" name = "email">
+                <br>
+                <br>
+                <label for = "subject">Subject:</label>
+                <input type = "text" id = "subject" name = "subject">
+                <br>
+                <br>
+                <label for = "message">Message:</label>
+                <br>
+                <textarea></textarea>
+                <br>
+                <br>
+                <input type = "submit" value = "Submit" class="volunteer">
+            </form></a></div>
+            </div>
+            <div id="hide"> 
+            <button class="volunteer" onclick="displayForm()">Volunteer Now</button>
+            <p>Ready to volunteer? Get started by clicking the "Volunteer Now" button.</p>
+            </div>
+            <p id="message">Thank you for your submission!</p>
+
+        <h2 class="mediumFont">Overview</h2>
+        <p>Who: United Way is a privately funded charity who's mission is to help improve community welfare across
+            almost all of US communities and countless countries abroad.</p>
+        <p>Why: United Way strives to improve the quality of health, education, and economic opportunities for those in the 
+            community it serves. </p>
+        <p>How: Through donations and volunteers United Way is able to help people within their community in various ways.</p>
+        </div>
+        </div>
+        <div class="listStyle2">
+        <p>This charity could be a good match if you:
+            <ul>
+                <li>Want to help improve your community.</li>
+                <li>Are looking for a variety of different ways to volunteer.</li>
+                <li>Are passionate about improving the accessible health or education in your community.</li>
+            </ul>
+        </p>
+        </div>
+        <h3 class="mediumFont purple">Volunteer Opportunities</h3>
+        <p>There is a wide variety of ways to volunteer through United Way. Some of those include:</p>
+        <div class="listStyle2">
+        <ul>
+            <li>Organizing a food drive.</li>
+            <li>Helping a senior citizen file taxes.</li>
+            <li>Offering tuturing or mentoring.</li>
+        </ul>
+        </div>
+        <h3 class="mediumFont green">Additional Information</h3>
+        <p>The learn more, visit United Way's website <a href = "https://www.unitedway.org/">here.</a></p>
+        <script src="charity_profile.js"></script>
+    </body>
+</html>

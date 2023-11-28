@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HelpHub Charity Profile: Habitat for Humanity</title>
+        <link rel = stylesheet href = "stylesheet.css">
+    </head>
+
+    <body>
+        <p><span class = "logo">HelpHub</span></p>
+        <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href = "index.html" class="hover">Homepage</a></li>
+                <li><a href = "charities.html" class="hover">Charities List</a></li>
+                <li class="smallFont2">Charity Profile Pages</li>           
+                <li><a href ="charity_profile1.html" class="hover">ASPCA</a></li>
+                <li><a href ="charity_profile2.html" id="active">Habitat for Humanity</a></li>
+                <li><a href ="charity_profile3.html" class="hover">United Way</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+        <h1 class="largeFont">Habitat for Humanity</h1>
+        <div id="hidden" style="display: none;">   
+            <div id="form">
+            <h1>Volunteer Now</h1>
+            <p>Fill out the contact information form below to get started on your jounrey to volunteering.</p>
+            <form class="smallFont2">
+                <label for ="charity">Name of Charity: Habitat for Humanity</label>
+                <br>
+                <br>
+                <label for="fname" >First name:</label>
+                <input type = "text" id = "fname" name = "fname">
+                <br>
+                <br>
+                <label for="lname">Last name:</label>
+                <input type = "text" id ="lname" name = "lname">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type = "email" id = "email" name = "email">
+                <br>
+                <br>
+                <label for = "subject">Subject:</label>
+                <input type = "text" id = "subject" name = "subject">
+                <br>
+                <br>
+                <label for = "message">Message:</label>
+                <br>
+                <textarea></textarea>
+                <br>
+                <br>
+                <input type = "submit" value = "Submit" class="volunteer">
+            </form></a></div>
+            </div>
+            <div id="hide">
+            <button class="volunteer" onclick="displayForm()">Volunteer Now</button>
+            <p>Ready to volunteer? Get started by clicking the "Volunteer Now" button.</p>
+            </div>
+            <p id="message">Thank you for your submission!</p>
+        <h2 class="mediumFont">Overview</h2>
+        <p>Who: Habitat for Humanity is a non for profit global organization focused on providing and improving
+            shelter for countless communities across the United States and around the world.</p>
+        <p>Why: Habitat's mission is to bring people together to build homes with the vision for everyone to have a 
+            decent place to live. 
+        </p>
+        <p>How: Through donations and volunteers Habitat is able to help fund the construction of new buildings and renovations to
+            preexisting homes in need, varying from community to community. 
+        </p>
+        </div>
+        </div>
+        <div class="listStyle2">
+        <p>This charity could be a good match if you:
+            <ul>
+                <li>Want to become more involved in your community.</li>
+                <li>Are interested in construction/ building homes.</li>
+                <li>Want to fight against poverty and homelessness.</li>
+            </ul>
+        </p>
+        </div>
+        <h3 class="mediumFont purple">Volunteer Opportunities</h3>
+        <p>Many volunteers for Habitat for Humanity engage in construction work to help build new homes.
+            Volunteers do not need to have any experience in construction or building in order to volunteer.
+        </p>
+        <p>Other volunteer opportunties include helping staff an event and providing food for volunteers.</p>
+        <h3 class="mediumFont green">Additional Information</h3>
+        <p>To learn more, visit Habitat for Humanity's website <a href = "https://www.habitat.org/">here.</a></p>
+        <script src="charity_profile.js"></script>
+    </body>
+</html>
