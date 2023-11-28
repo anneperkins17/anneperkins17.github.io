@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HelpHub Charity Profile: ASPCA</title>
+        <link rel = "stylesheet" href = "stylesheet.css">
+    </head>
+
+    <body>
+        <p><span class = "logo">HelpHub</span></p>
+        <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href = "index.html" class="hover">Homepage</a></li>
+                <li><a href = "charities.html" class="hover">Charities List</a></li>
+                <li class="smallFont2">Charity Profile Pages</li>           
+                <li><a href ="charity_profile1.html" id="active">ASPCA</a></li>
+                <li><a href ="charity_profile2.html" class="hover">Habitat for Humanity</a></li>
+                <li><a href ="charity_profile3.html" class="hover">United Way</a></li></ul>
+            </ul>
+        </nav>
+        <div class="content">
+        <h1 class="largeFont">ASPCA</h1>
+        <div id="hidden">    
+            <div id="form">
+            <h1>Volunteer Now</h1>
+            <p>Fill out the contact information form below to get started on your jounrey to volunteering.</p>
+            <form class="smallFont2">
+                <label for ="charity">Name of Charity: ASPCA</label>
+                <br>
+                <br>
+                <label for="fname" >First name:</label>
+                <input type = "text" id = "fname" name = "fname">
+                <br>
+                <br>
+                <label for="lname">Last name:</label>
+                <input type = "text" id ="lname" name = "lname">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type = "email" id = "email" name = "email">
+                <br>
+                <br>
+                <label for = "subject">Subject:</label>
+                <input type = "text" id = "subject" name = "subject">
+                <br>
+                <br>
+                <label for = "message">Message:</label>
+                <br>
+                <textarea></textarea>
+                <br>
+                <br>
+                <input type = "submit" value = "Submit" class="volunteer" onclick="thankYou()">
+                <button onclick="thankYou()">Submit</button>
+            </form></a></div>
+            </div>
+            <div id="hide">
+            <button class="volunteer" onclick="displayForm()">Volunteer Now</button>
+            <p>Ready to volunteer? Get started by clicking the "Volunteer Now" button.</p>
+            </div>
+        <p id="message">Thank you for your submission!</p>
+
+        <h2 class="mediumFont">Overview</h2>
+        <p>Who: The American Society for the Prevention of Cruelty to Animals (ASPCA) is a non-profit organization who's 
+            mission is to help displaced and abused animals.
+        </p>
+        <p>Why: The ASPCA strives to advocate for animal welfare.</p>
+        <p>How: Through donations, volunteers, and pet adoption ASPCA is able to help many animals in countless communities across
+            the United States. 
+        </p>
+        </div>
+        </div>
+        <div class="listStyle2">
+        <p>This charity could be a good match if you:
+            <ul>
+                <li>Enjoy working and spending time with animals.</li>
+                <li>Care about animal welfare and advocating for animal rights.</li>
+                <li>Looking to help bridge connections between people and pets for adoption.</li>
+            </ul>
+        </p>
+        </div>
+        <h3 class="mediumFont purple">Volunteer Opportunities</h3>
+        <p>Some of the jobs volunteers might do at their local SPCA include:</p>
+        <div class="listStyle2">
+            <ul>
+                <li>Canine Companion - spending time with the shelter's dogs and helping them get adopted.</li>
+                <li>Feline Friend - spending time with the shelter's cats and helping them get adopted.</li>
+                <li>Dog Walker - help walk and exercise the shelter's dogs.</li>
+                <li>Animal Care Attendant - help keep the animals and their living spaces clean.</li>
+            </ul>
+        </div>
+        <h3 class="mediumFont green">Additonal Information</h3>
+        <p>To learn more, visit ASPCA's website <a href = "https://www.aspca.org/">here.</a></p>
+        <script src="charity_profile.js"></script>
+    </body>
+</html>
